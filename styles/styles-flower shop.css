@@ -1,5 +1,77 @@
+/* fonts from google  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 /* Common styles  */
-*{
-    margin:0;
-    padding:0;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.common-p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.common-btn {
+  background: #e55473;
+  border-radius: 8px;
+  padding: 20px 45px;
+  color: #fff;
+  font-family: lato;
+  font-size: 1rem;
+  border: none;
+}
+/* banner section styles  */
+header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.banner-container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner-txt {
+  width: 50%;
+  max-width: 525px;
+}
+.banner-txt * {
+  padding-bottom: 30px;
+}
+.banner-txt h2 {
+  color: #272727;
+  font-family: lato;
+  font-size: 3.75rem;
+  font-weight: 800;
+}
+.banner-pic img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* respinsive styles for small device  */
+
+@media screen and (max-width: 576px) {
+  .banner-container {
+    flex-direction: column;
+    margin: 0px 40px;
+  }
+  .banner-txt {
+    width: auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 990px) {
+  .banner-container {
+    margin: 0px 40px;
+  }
+  .banner-txt {
+    width: 40%;
+    text-align: center;
+  }
 }
