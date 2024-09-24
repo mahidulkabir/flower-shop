@@ -11,7 +11,6 @@
   color: rgba(39, 39, 39, 0.6);
   font-size: 1.125rem;
   font-weight: 400;
-  
 }
 .common-btn {
   background: #e55473;
@@ -22,20 +21,18 @@
   border: none;
   cursor: pointer;
 }
-.common-btn:hover{
+.common-btn:hover {
   background: #e21441;
 }
 .common-container {
-  
   width: 75%;
   max-width: 1440px;
   margin: 0 auto;
 }
-.common-title{
+.common-title {
   font-size: 1.8rem;
   font-weight: 800;
   color: #272727;
-  
 }
 /* banner section styles  */
 header {
@@ -45,7 +42,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 .banner-container {
   width: 75%;
@@ -71,49 +67,47 @@ header {
 }
 
 /* featured flower section styles  */
-.featured-container{
-    width: 75%;
-    max-width: 1440px;
-    margin: 0 auto;
-    
+.featured-container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.featured-title, .common-title{
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: #272727;
-    margin: 175px 0px 25px 0px;
+.featured-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #272727;
+  margin: 175px 0px 25px 0px;
 }
-.featured-container p{
-    text-align: center;
-    margin-bottom: 45px;
+.featured-container p {
+  text-align: center;
+  margin-bottom: 45px;
 }
-.featured-flowr-container{
+.featured-flowr-container {
   display: flex;
   justify-content: space-between;
 }
-.featured-flowr img{
+.featured-flowr img {
   cursor: pointer;
   border-radius: 300px 300px 0px 0px;
   padding: 110px 75px 0;
   width: 315px;
   height: 470px;
- 
 }
-.featured-flowr img:hover{
+.featured-flowr img:hover {
   width: 325px;
   height: 480px;
 }
-.flower-1 img{
+.flower-1 img {
   background: rgba(167, 33, 98, 0.15);
 }
-.flower-2 img{
+.flower-2 img {
   background: rgba(5, 151, 160, 0.15);
 }
-.flower-3 img{
+.flower-3 img {
   background: rgba(71, 125, 17, 0.15);
 }
-.featured-flwr-txt{
+.featured-flwr-txt {
   color: #272727;
   text-align: center;
   font-weight: 700;
@@ -124,7 +118,7 @@ header {
 
 /* customer care section styles  */
 
-.support-section-container{
+.support-section-container {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   display: flex;
@@ -133,61 +127,90 @@ header {
   padding: 80px 0;
   margin-top: 120px;
 }
-.support-content  {
+.support-content {
   text-align: center;
- 
 }
-.support-content p{
-  color: rgba(39, 39, 39, 0.80);
-margin-top: 25px;
-text-align: center;
-font-size: 1.25rem;
-font-weight: 600;
-cursor: pointer;
-
+.support-content p {
+  color: rgba(39, 39, 39, 0.8);
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
 }
-.support-content img:hover{
+.support-content img:hover {
   background-color: rgba(102, 51, 153, 0.26);
   border-radius: 50%;
 }
-  /* Hot deals section styles  */
-.hot-deals-section{
+/* Hot deals section styles  */
+.hot-deals-section {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
 }
 
-.hot-deals-container{
+.hot-deals-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 130px;
   padding-bottom: 100px;
 }
-.hot-deals-txt{
+.hot-deals-txt {
   width: 100%;
-  max-width:445px ;
-   display: flex;
+  max-width: 445px;
+  display: flex;
   flex-direction: column;
   align-items: center;
- text-align: center;
+  text-align: center;
 }
-.hot-deals-pic img{
+.hot-deals-pic img {
   width: 100%;
   margin-top: 50px;
-  
 }
-.hot-deals-txt button{
+.hot-deals-txt button {
   margin-top: 50px;
 }
 
 /* insta section styles  */
-.insta-txt{
+.insta-txt {
   text-align: center;
   margin: 25px 0 50px 0;
 }
-.insta-pics{
+.insta-pics {
   display: flex;
-  gap: 25px;
+  gap: 20px;
+}
+
+/* latest deals section  */
+.deals-container {
+  background: url(../assets/Rectangle\ 9.png);
+  background-size:auto;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items:center;
+  margin-top: 130px;
+}
+.latest-deals-txt p {
+  padding-top: 16px;
+  text-align: center;
+}
+.latest-deals-txt {
+  padding-top: 120px;
+  
+}
+.latest-deals-form {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 150px 0;
+  gap: 15px;
+}
+.deals-form {
+  padding: 23px 510px 23px 23px;
+  border: none;
+  border-radius: 8px;
 }
 /* respinsive styles for small device  */
 
@@ -196,27 +219,28 @@ cursor: pointer;
     flex-direction: column;
     margin: 0px 40px;
   }
-  .featured-flowr-container{
-    flex-direction:column;
-    justify-content:baseline;
+  .featured-flowr-container {
+    flex-direction: column;
+    justify-content: baseline;
   }
-   .support-section-container{
+  .support-section-container {
     flex-direction: column;
     gap: 100px;
-   }
-   .insta-pics{
+  }
+  .insta-pics {
     flex-direction: column;
-   }
-   .hot-deals-container{
+  }
+  .hot-deals-container {
     flex-direction: column;
     margin-top: 30px;
-    padding-top: 10px;}
+    padding-top: 10px;
+  }
   .banner-txt {
     width: auto;
     text-align: center;
   }
-  .featured-flowr img{
-    padding:  0;
+  .featured-flowr img {
+    padding: 0;
   }
 }
 /* resposive style for middle device  */
@@ -229,21 +253,20 @@ cursor: pointer;
     width: 40%;
     text-align: center;
   }
-  .featured-flowr-container{
-    flex-direction:column;
-    justify-content:baseline;
+  .featured-flowr-container {
+    flex-direction: column;
+    justify-content: baseline;
     align-items: center;
   }
-  .support-section-container{
+  .support-section-container {
     flex-direction: column;
     gap: 100px;
-   }
-   .hot-deals-txt button{
-    margin-top:20px;
   }
-  .insta-pics{
+  .hot-deals-txt button {
+    margin-top: 20px;
+  }
+  .insta-pics {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-   }
-  
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
