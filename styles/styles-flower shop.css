@@ -24,6 +24,12 @@
 .common-btn:hover{
   background: #e21441;
 }
+.common-container {
+  
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 /* banner section styles  */
 header {
   background: rgba(229, 84, 115, 0.1);
@@ -32,12 +38,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  
 }
 .banner-container {
   width: 75%;
   max-width: 1440px;
   margin: 0 auto;
+  gap: 100px;
 }
 .banner-txt {
   width: 50%;
@@ -63,7 +70,7 @@ header {
     margin: 0 auto;
     
 }
-.featured-title{
+.featured-title, .common-title{
     text-align: center;
     font-size: 1.8rem;
     font-weight: 800;
@@ -108,6 +115,30 @@ header {
   margin-top: 35px;
 }
 
+/* customer care section styles  */
+
+.support-section-container{
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding: 80px 0;
+  margin-top: 120px;
+}
+.support-content  {
+  text-align: center;
+ 
+}
+.support-content p{
+  color: rgba(39, 39, 39, 0.80);
+margin-top: 25px;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 600;
+
+}
+  
 /* respinsive styles for small device  */
 
 @media screen and (max-width: 576px) {
