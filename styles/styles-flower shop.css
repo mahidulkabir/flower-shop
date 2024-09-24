@@ -136,7 +136,12 @@ margin-top: 25px;
 text-align: center;
 font-size: 1.25rem;
 font-weight: 600;
+cursor: pointer;
 
+}
+.support-content img:hover{
+  background-color: rgba(102, 51, 153, 0.26);
+  border-radius: 50%;
 }
   
 /* respinsive styles for small device  */
@@ -150,6 +155,10 @@ font-weight: 600;
     flex-direction:column;
     justify-content:baseline;
   }
+   .support-section-container{
+    flex-direction: column;
+    gap: 100px;
+   }
   .banner-txt {
     width: auto;
     text-align: center;
@@ -173,4 +182,8 @@ font-weight: 600;
     justify-content:baseline;
     align-items: center;
   }
+  .support-section-container{
+    flex-direction: column;
+    gap: 100px;
+   }
 }
