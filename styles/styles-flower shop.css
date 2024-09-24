@@ -158,22 +158,22 @@ cursor: pointer;
 .hot-deals-container{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: 130px;
   padding-top: 100px;
 }
 .hot-deals-txt{
   width: 100%;
   max-width:445px ;
-  
-  display: flex;
+   display: flex;
   flex-direction: column;
   align-items: center;
- 
-  text-align: center;
+ text-align: center;
 }
 .hot-deals-pic img{
   width: 100%;
-  /* border: 1px solid; */
+  margin-top: 50px;
+  
 }
 .hot-deals-txt button{
   margin-top: 50px;
@@ -194,6 +194,10 @@ cursor: pointer;
     flex-direction: column;
     gap: 100px;
    }
+   .hot-deals-container{
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 10px;}
   .banner-txt {
     width: auto;
     text-align: center;
@@ -221,4 +225,8 @@ cursor: pointer;
     flex-direction: column;
     gap: 100px;
    }
+   .hot-deals-txt button{
+    margin-top:20px;
+  }
+  
 }
