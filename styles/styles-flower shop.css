@@ -11,6 +11,7 @@
   color: rgba(39, 39, 39, 0.6);
   font-size: 1.125rem;
   font-weight: 400;
+  
 }
 .common-btn {
   background: #e55473;
@@ -179,6 +180,15 @@ cursor: pointer;
   margin-top: 50px;
 }
 
+/* insta section styles  */
+.insta-txt{
+  text-align: center;
+  margin: 25px 0 50px 0;
+}
+.insta-pics{
+  display: flex;
+  gap: 25px;
+}
 /* respinsive styles for small device  */
 
 @media screen and (max-width: 576px) {
