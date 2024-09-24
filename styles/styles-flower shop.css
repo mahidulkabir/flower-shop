@@ -30,6 +30,12 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+.common-title{
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #272727;
+  
+}
 /* banner section styles  */
 header {
   background: rgba(229, 84, 115, 0.1);
@@ -143,7 +149,36 @@ cursor: pointer;
   background-color: rgba(102, 51, 153, 0.26);
   border-radius: 50%;
 }
+  /* Hot deals section styles  */
+.hot-deals-section{
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deals-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 130px;
+  padding-top: 100px;
+}
+.hot-deals-txt{
+  width: 100%;
+  max-width:445px ;
   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  text-align: center;
+}
+.hot-deals-pic img{
+  width: 100%;
+  /* border: 1px solid; */
+}
+.hot-deals-txt button{
+  margin-top: 50px;
+}
+
 /* respinsive styles for small device  */
 
 @media screen and (max-width: 576px) {
