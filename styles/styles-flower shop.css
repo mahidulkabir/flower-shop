@@ -242,6 +242,16 @@ header {
   .featured-flowr img {
     padding: 0;
   }
+  .deals-form {
+    padding: 23px;
+    
+  }
+  .latest-deals-form {
+   
+    flex-direction: column;
+    margin: 50px; 
+  }
+
 }
 /* resposive style for middle device  */
 
@@ -268,5 +278,14 @@ header {
   .insta-pics {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .deals-form {
+    padding: 25px 200px 25px 25px;
+    
+  }
+  .latest-deals-form {
+   
+    flex-direction: column;
+    margin: 50px; 
   }
 }
