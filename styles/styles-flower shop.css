@@ -163,6 +163,9 @@ header {
   align-items: center;
   text-align: center;
 }
+.hot-deals-txt span{
+  color: #E55473;;
+}
 .hot-deals-pic img {
   width: 100%;
   margin-top: 50px;
@@ -212,6 +215,37 @@ header {
   border: none;
   border-radius: 8px;
 }
+
+/* footer section styles */
+footer{
+ background-color: #111010;
+ height: 338px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-top: 130px;
+}
+
+.flower{
+  color: #E55473;
+}
+.shop{
+  color: #FFF;
+}
+.footer-p{
+  color: rgba(255, 255, 255, 0.90);
+font-size: 1rem;
+font-weight: 400;
+margin: 25px 30px;
+text-align: center;
+}
+.footer{
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 1rem;
+font-weight: 400;;
+
+}
 /* respinsive styles for small device  */
 
 @media screen and (max-width: 576px) {
@@ -251,6 +285,12 @@ header {
     flex-direction: column;
     margin: 50px; 
   }
+  footer{
+    height: 200px;
+   }
+   .footer-p {
+    margin: 20px 10px;
+}
 
 }
 /* resposive style for middle device  */
@@ -288,4 +328,10 @@ header {
     flex-direction: column;
     margin: 50px; 
   }
+  footer{
+    height: 200px;
+   }
+   .footer-p {
+    margin: 20px 10px;
+}
 }
